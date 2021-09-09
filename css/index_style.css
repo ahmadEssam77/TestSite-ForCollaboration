@@ -1,0 +1,38 @@
+/* =============== Websites Main Colors =============== */
+.primary-bg-color {
+    background-color: #11052C;
+}
+
+.secondary-bg-color {
+    background-color: #3D087B;
+}
+
+.third-bg-color {
+    background-color: #F43B86;
+}
+
+.forth-bg-color {
+    background-color: #FFE459;
+}
+
+.primary-color {
+    color: #11052C;
+}
+
+.secondary-color {
+    color: #3D087B;
+}
+
+.third-color {
+    color: #F43B86;
+}
+
+.forth-color {
+    color: #FFE459;
+}
+
+/* =============== Welcoming user style =============== */
+.welcomeUserDisplay {
+    font-size: 50px;
+    font-family: 'Architects Daughter', cursive;
+}
