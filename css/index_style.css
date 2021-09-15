@@ -1,6 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+}
+.main h1{
+    border: 1px solid;
+    width: fit-content;
+    padding: 10px 25px;
+    color: #fff;
+    position: relative;
+    display: none;
+}
+.main h1::after{
+    content: "";
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    mix-blend-mode: difference;
+    animation: heading-animate 1.5s ease-in-out infinite;
+}
+@keyframes heading-animate {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 100%;
+    }
+}
+.userName{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+
 /* =============== Websites Main Colors =============== */
 .primary-bg-color {
-    background-color: #11052C;
+    background-color: rgba(0,0,0,.95);
 }
 
 .secondary-bg-color {
@@ -37,13 +80,3 @@
     font-family: 'Architects Daughter', cursive;
 }
 
-/* ======================= */
-.main {
-    width: 100%;
-    height: 100vh;
-}
-h1{
-    color: #808080;
-    font-size: 40px;
-    font-weight: 600;
-}
