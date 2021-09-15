@@ -10,11 +10,11 @@
 }
 .main h1{
     border: 1px solid;
-    width: fit-content;
+    width: fit-content;     /* New value of width */
     padding: 10px 25px;
     color: #fff;
     position: relative;
-    display: none;
+    display: none;                   /* Important to make it hide at the first sight */
 }
 .main h1::after{
     content: "";
@@ -23,7 +23,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    mix-blend-mode: difference;
+    mix-blend-mode: difference;     /* Without this property the loading effect will not work fine */
     animation: heading-animate 1.5s ease-in-out infinite;
 }
 @keyframes heading-animate {
